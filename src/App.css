@@ -1,0 +1,67 @@
+/* Page background */
+.weather-container {
+  background-color: #4db8ff;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Title */
+.weather-container h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Search */
+.search-box {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 220px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Card */
+.weather-card {
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Temperature */
+.temperature {
+  font-size: 25px;
+  color: orange;
+  margin: 10px 0;
+}
+
+/* Description */
+.description {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+/* Humidity */
+.humidity {
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Error */
+.error {
+  color: yellow;
+  margin-bottom: 10px;
+}
